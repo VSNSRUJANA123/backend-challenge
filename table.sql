@@ -17,4 +17,10 @@ values
  
  select * from product.productTable;
  
- select sum(price) from product.productTable
+ select sum(price) from product.productTable;
+ 
+ CREATE Table user(
+    name VARCHAR(200),
+    password VARCHAR(200),
+    email VARCHAR(200)
+);
